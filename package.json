@@ -1,0 +1,19 @@
+{
+  "name": "nodemongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "run": "node app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}

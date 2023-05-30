@@ -1,0 +1,10 @@
+extends base
+block append style
+    style
+        include ../static/viewpage.css
+block content
+    form(action='/view/getData', method='post', class='formControl')
+        div#nameDiv
+            span Name:
+            <input type="text" class= “name” name="name" placeholder="Enter your name">
+        button#submitBtn Submit

@@ -1,0 +1,19 @@
+html
+    head
+        title Aniplix- #{title}
+        block style
+            style
+                include ../static/basepage.css
+    body
+        nav#navbar
+            div#navBrand
+                h1 Anime Watcher
+            ul#navList
+                li #[a(href="/") Home]
+                li #[a(href="/view") View]
+        hr#baseLine
+        block content
+        block scripts
+
+
+

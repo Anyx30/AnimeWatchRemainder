@@ -1,0 +1,22 @@
+extends base
+block append style
+    style
+        include ../static/homepage.css
+block content
+    h2#heading2 Add to watchlist
+    div#container
+        form(action='/', method='post', class='formControl')
+            div#nameDiv
+                span Your Name
+                <input type="text" class= “name” name="name" placeholder="Enter your name">
+            div#ageDiv
+                span Age
+                <input type="number" class= “age” name="age" placeholder="Enter your age">
+            div#animeNameDiv
+                span Anime Name
+                <input type="text" class= “animeName” name="animeName" placeholder="Enter anime name">
+            button#btn Submit
+    div#output
+        p #{content}
+
+

@@ -1,0 +1,11 @@
+extends base
+block append style
+    style
+        include ../static/viewpage.css
+block content
+    h1#heading #{name}'s watchlist includes:
+    ol.listofAnime
+        each val in record
+            li #{val.animeName}
+
+block scripts
